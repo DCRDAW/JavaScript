@@ -50,3 +50,13 @@ try {
 } finally {
   console.log('finally');
 }
+
+//array
+
+let vector= [1,2,3]
+let guarreria= [1,2,'asdsdsa',true]
+let matriz={
+  [1,2,3],
+  [4,5,6],
+  [7,8,9]
+}
