@@ -55,8 +55,35 @@ try {
 
 let vector= [1,2,3]
 let guarreria= [1,2,'asdsdsa',true]
-let matriz={
+let matriz=[
   [1,2,3],
   [4,5,6],
   [7,8,9]
+]
+//recorrer con for
+for (let i=0; i< vector.lenght;i++)
+{
+  console.log(vector[i])
+}
+//recorrer con of
+for(let elemento of vector)
+{
+  console.log(vector)
+}
+//recorrer con in
+for(let atributo in objeto)
+{
+  console.log('el atributo \''+atributo+'\' vale '+ objeto[atributo])
+  console.log(`el atributo '${atributo}' vale ${objeto[atributo]}`)
+}
+let matriz2= [
+  [1,2,3],
+  [4,5,14,78],
+  [7,8]
+]
+//recorrer matrices
+for(let fila of matriz2){
+  for (let elemento of fila){
+    console.log(elemento)
+  }
 }
